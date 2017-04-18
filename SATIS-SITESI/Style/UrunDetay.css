@@ -1,0 +1,90 @@
+﻿body {
+    overflow-x: hidden;
+}
+.urun-div {
+    margin-left:150px;
+    border:1px solid #d3cbcb;
+    
+    border-top:0;
+}
+.urunImage {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+.urunBilgileri {
+    border: 1px solid #e5e2e2;
+    margin-left: 300px;
+    padding-right: 0px;
+    width: 300px;
+    height: 300px;
+    margin-top:2px;
+    margin-bottom:15px;
+}
+.urunAd {
+    padding-left:5px;
+    font-weight:bold;
+    color:#0a00ff;
+}
+.urun-baslik {
+    margin: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.urunBilgileri table tr td{
+    padding:5px;
+}
+.urunSatis {
+    color:#0a00ff;          
+}
+.toplamTutar {
+    color:#0a00ff;
+}
+.satinAl {
+    background-color:transparent;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    border:1px solid #d3cbcb;
+    padding:5px;
+}
+.satinAl:hover{
+    background-color:#ff6a00;
+}
+h3 {
+    margin-left:150px;
+}
+.yorumYap {
+    margin-left:150px;
+}
+.yorumButon {
+    background-color:transparent;
+    border:1px solid #e5e2e2;
+    padding:5px;
+    float:right;
+}
+.yorumButon:hover {
+    background-color:#069719;
+    border:1px solid #069719;
+    padding:6px;
+}
+.yorumlar {
+    border: 1px solid #d3cbcb;
+    padding-left: 150px;
+    border-bottom: none;
+}
+.baslik {
+    display: -webkit-box;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+}
+.metin {
+    margin-left: 25px;
+    padding: 5px;
+}
+.yorumKisi {
+    border-bottom: 1px solid #e5e2e2;
+    width: 500px;
+}

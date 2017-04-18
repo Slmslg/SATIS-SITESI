@@ -1,0 +1,19 @@
+﻿.stokEkle {
+        margin-top:20px;
+        margin-left:20px;
+        float:left;
+}
+.urunAdDrop {
+    width:186px;
+    height:20px;
+}
+.urunAdetDrop {
+    width:186px;
+    height:20px;
+}
+.accept {
+    height:42px;
+    width:42px;
+    margin-left:60px;
+    margin-top:15px;
+}

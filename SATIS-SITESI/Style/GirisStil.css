@@ -1,0 +1,88 @@
+﻿body {
+    background:#2c3338;
+    font-family: Verdana, monospace, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+    min-height: 800px;
+    overflow:hidden;
+}
+#form1 {
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    margin:35%;
+    position: relative;
+    margin-top:200px;
+}
+.login {
+    height:300px;
+    width:400px;
+    padding:20px;
+}
+#kullaniciAd {
+    margin:10px;
+}
+#kullaniciAd img {
+    height:30px;
+    width:30px; 
+    padding:11px;
+    background-color:#363b41;
+    float:left;
+    border-bottom-left-radius:3px;
+    border-top-left-radius:3px;
+}
+#kAD {
+    background-color:#3b4148;
+    height:50px;
+    width:250px;
+    border:0;
+    border-bottom-right-radius:3px;
+    border-top-right-radius:3px;
+    font-size:20px;
+    padding-left:15px;
+}
+#kSifre {
+    background-color:#3b4148;
+    height:50px;
+    width:250px;
+    border:0;
+    border-bottom-right-radius:3px;
+    border-top-right-radius:3px;
+    font-size:20px;
+    padding-left:15px;
+}
+#onayButon {
+    background-color:#3b4148;
+    height:70px;
+    width:315px;
+    border:0;
+    border-bottom-right-radius:3px;
+    border-top-right-radius:3px;
+    font-size:20px;
+    text-align:center;
+    padding-bottom:40px;
+    padding-top:20px;
+    border-radius:4px;   
+}
+#onayButon:hover {
+    background-color:#ff6a00;
+    cursor:pointer;
+}
+a {
+   color:#000;
+   text-decoration:none;
+}
+.forget:hover {
+    color:#ff6a00;
+    cursor:pointer;
+}
+.uyeOl {
+    float:left;
+    margin-right:120px;
+}
+
+.uyeOl:hover {
+    color:#ff6a00;
+    cursor:pointer;
+}

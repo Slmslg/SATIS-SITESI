@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19066943-DF9B-420D-925C-B1C52A1BC47D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SATIS_SITESI</RootNamespace>
+    <AssemblyName>SATIS-SITESI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30930.28736, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Templates\AjaxControlToolkit\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.Resources.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\ModernUI.1.3.0.0\lib\net40\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="devExp.aspx" />
+    <Content Include="Img\1.jpg" />
+    <Content Include="Img\10.jpg" />
+    <Content Include="Img\2.jpg" />
+    <Content Include="Img\3.jpg" />
+    <Content Include="Img\4.jpg" />
+    <Content Include="Img\5.jpg" />
+    <Content Include="Img\6.jpg" />
+    <Content Include="Img\7.jpg" />
+    <Content Include="Img\8.jpg" />
+    <Content Include="Img\9.jpg" />
+    <Content Include="Img\accept.png" />
+    <Content Include="Img\DevSlider\acces.jpg" />
+    <Content Include="Img\DevSlider\bisiklet.jpg" />
+    <Content Include="Img\DevSlider\canon.png" />
+    <Content Include="Img\DevSlider\lenovoIP.jpg" />
+    <Content Include="Img\DevSlider\telefon.jpg" />
+    <Content Include="Img\DevSlider\via10.png" />
+    <Content Include="Img\DevSlider\Vibe.png" />
+    <Content Include="Style\AdminMaster.css" />
+    <Content Include="Img\200x400.png" />
+    <Content Include="Img\ayarlar.png" />
+    <Content Include="Img\basket.png" />
+    <Content Include="Img\home.png" />
+    <Content Include="Img\logo.png" />
+    <Content Include="Img\members.png" />
+    <Content Include="Img\products.png" />
+    <Content Include="Img\sepet.png" />
+    <Content Include="Img\signout.png" />
+    <Content Include="Pages\Admin\AdresEkle.aspx" />
+    <Content Include="Pages\Admin\AdresSil.aspx" />
+    <Content Include="Pages\Admin\KategoriEkle.aspx" />
+    <Content Include="Pages\Admin\KullaniciEkle.aspx" />
+    <Content Include="Pages\Admin\MarkaEkle.aspx" />
+    <Content Include="Pages\Admin\ModelEkle.aspx" />
+    <Content Include="Pages\Admin\StokEkle.aspx" />
+    <Content Include="Pages\Admin\UrunEkle.aspx" />
+    <Content Include="Pages\Admin\YorumEkle.aspx" />
+    <Content Include="Pages\User\AdresEkle.aspx" />
+    <Content Include="Pages\User\CikisYap.aspx" />
+    <Content Include="Pages\User\DirektSatinAl.aspx" />
+    <Content Include="Pages\User\Forget.aspx" />
+    <Content Include="Pages\User\Anasayfa.aspx" />
+    <Content Include="Pages\User\Login.aspx" />
+    <Content Include="Pages\User\Onayla.aspx" />
+    <Content Include="Pages\User\Sepet.aspx" />
+    <Content Include="Pages\User\UyeOl.aspx" />
+    <Content Include="Pages\User\YorumSil.aspx" />
+    <Content Include="Style\Adres.css" />
+    <Content Include="Style\Anasayfa.css" />
+    <Content Include="Style\GirisStil.css" />
+    <Content Include="Style\Kategori.css" />
+    <Content Include="Style\Kullanici.css" />
+    <Content Include="Style\Sepet.css" />
+    <Content Include="Style\SifreYenile.css" />
+    <Content Include="Style\Stok.css" />
+    <Content Include="Style\UrunDetay.css" />
+    <Content Include="Style\UrunEkle.css" />
+    <Content Include="Style\UserStyle.css" />
+    <Content Include="Style\UyeOl.css" />
+    <Content Include="Style\YorumSil.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Baglanti.cs" />
+    <Compile Include="Classes\IDIslemleri.cs" />
+    <Compile Include="Classes\KullaniciGiris.cs" />
+    <Compile Include="Classes\Sepet.cs" />
+    <Compile Include="Classes\Yonetim.cs" />
+    <Compile Include="devExp.aspx.cs">
+      <DependentUpon>devExp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="devExp.aspx.designer.cs">
+      <DependentUpon>devExp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\AdresEkle.aspx.cs">
+      <DependentUpon>AdresEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\AdresEkle.aspx.designer.cs">
+      <DependentUpon>AdresEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\AdresSil.aspx.cs">
+      <DependentUpon>AdresSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\AdresSil.aspx.designer.cs">
+      <DependentUpon>AdresSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\KategoriEkle.aspx.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\KategoriEkle.aspx.designer.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\KullaniciEkle.aspx.cs">
+      <DependentUpon>KullaniciEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\KullaniciEkle.aspx.designer.cs">
+      <DependentUpon>KullaniciEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\MarkaEkle.aspx.cs">
+      <DependentUpon>MarkaEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\MarkaEkle.aspx.designer.cs">
+      <DependentUpon>MarkaEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\ModelEkle.aspx.cs">
+      <DependentUpon>ModelEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\ModelEkle.aspx.designer.cs">
+      <DependentUpon>ModelEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\StokEkle.aspx.cs">
+      <DependentUpon>StokEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\StokEkle.aspx.designer.cs">
+      <DependentUpon>StokEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\UrunEkle.aspx.cs">
+      <DependentUpon>UrunEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\UrunEkle.aspx.designer.cs">
+      <DependentUpon>UrunEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin\YorumEkle.aspx.cs">
+      <DependentUpon>YorumEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\YorumEkle.aspx.designer.cs">
+      <DependentUpon>YorumEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\AdresEkle.aspx.cs">
+      <DependentUpon>AdresEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\AdresEkle.aspx.designer.cs">
+      <DependentUpon>AdresEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\CikisYap.aspx.cs">
+      <DependentUpon>CikisYap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\CikisYap.aspx.designer.cs">
+      <DependentUpon>CikisYap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\DirektSatinAl.aspx.cs">
+      <DependentUpon>DirektSatinAl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\DirektSatinAl.aspx.designer.cs">
+      <DependentUpon>DirektSatinAl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\Forget.aspx.cs">
+      <DependentUpon>Forget.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\Forget.aspx.designer.cs">
+      <DependentUpon>Forget.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\Anasayfa.aspx.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\Anasayfa.aspx.designer.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\Onayla.aspx.cs">
+      <DependentUpon>Onayla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\Onayla.aspx.designer.cs">
+      <DependentUpon>Onayla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\Sepet.aspx.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\Sepet.aspx.designer.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\USER.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\USER.aspx.designer.cs">
+      <DependentUpon>USER.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\UyeOl.aspx.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\UyeOl.aspx.designer.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\YorumSil.aspx.cs">
+      <DependentUpon>YorumSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\YorumSil.aspx.designer.cs">
+      <DependentUpon>YorumSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pages\Admin\AdminMaster.Master" />
+    <Content Include="Pages\User\User.Master" />
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53300/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

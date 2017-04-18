@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="SATIS_SITESI.Pages.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Anasayfa</title>
+    <link href="../../Style/AdminMaster.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div class="header">  
+        <div class="logoDiv"><a href="#"><img id="ImgLogo" alt="Home" class="logoImg" src="../../img/logo.png" /></a></div>
+        <div class="imgHeader">    
+            <a href="#"><img id="id1" alt="Home" class="auto-style1" src="../../img/home.png" /></a> 
+            <a href="#"><img id="id2" alt="Products" class="auto-style1" src="../../img/products.png" /></a> 
+            <a href="#"><img id="id3" alt="Order" class="auto-style1" src="../../img/basket.png" /></a> 
+            <a href="#"><img id="id4" alt="Members" class="auto-style1" src="../../img/members.png" /></a> 
+            <a href="#"><img id="id5" alt="Adjustments" class="auto-style1" src="../../img/ayarlar.png" /></a>     
+        </div>
+        </div>
+        <div class="clear"></div>
+        <div class="sol-menu">
+            <ul>
+                <a href="KullaniciEkle.aspx"><li>Kullanıcı İşlemleri</li></a>
+                <a href="KategoriEkle.aspx"><li>Kategori Ekle</li></a>
+                <a href="MarkaEkle.aspx"><li>Marka İşlemleri</li></a>
+                <a href="ModelEkle.aspx"><li>Model İşlemleri</li></a>
+                <a href="UrunEkle.aspx"><li>Ürün İşlemleri</li></a>
+                <a href="StokEkle.aspx"><li>Stok İşlemleri</li></a>
+                <a href="AdresEkle.aspx"><li>Adres Ekle</li></a>
+                <a href="AdresSil.aspx"><li>Adres Sil</li></a>
+                <a href="YorumEkle.aspx"><li>Yorum Ekle</li></a>
+                <a href="YorumSil.aspx"><li>Yorum Sil</li></a>
+
+            </ul>
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div class="icerik">
+                
+        </div>
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="clear"></div>
+        <footer>
+            <div class="footer-class">
+                <h1>BittiBitiyor - Türkiye'nin En İşlek Online Alışveriş Sitesi</h1>
+            </div>
+            <div class="footer-yazi">
+                Türkiye'nin önde gelen alışveriş siteleri arasında olan, sahip olduğu benzersiz avantajları,
+                 %100 güvenli alışveriş sağlayan Sıfır Risk Sistemi'yle alışveriş tutkunlarının en çok tercih ettiği online
+                 alışveriş sitesi BittiBitiyor, kurulduğu günden bu yana online satış sistemini daha keyifli ve güvenli
+                 kılmaya devam ediyor. Yüzlerce kategorisinde yer alan inanılmaz ürün çeşidi ve rakipsiz fiyatlarıyla 
+                dünya markaları BittiBitiyor'la bir tık uzağınızda. Son model elektronik ürünlerin olduğu teknoloji 
+                kategorisinden istediğiniz cep telefonu modelini, hayalini kurduğunuz bilgisayarı ve diğer elektronik 
+                ürünleri uygun fiyat ve taksit seçeneğiyle online satın alabilir, en sevdiğiniz markaları içeren moda 
+                kategorisinden sezonun trendlerine uygun giyim ürünlerine, dünyaca ünlü ayakkabı markalarına, spor giyim 
+                seçeneklerine ulaşabilirsiniz. Online satışın ve güvenli alışverişin ilk adresi GittiGidiyor, kendi
+                 ürünlerinizi de satabileceğiniz bir alışveriş sitesidir. İster bireysel satış yapın ister firma sahibi 
+                tecrübeli bir satıcı olun, ücretsiz avantajlar, gelişmiş satış araçları, yenilenen mağaza abonelikleriyle
+                 bir Ebay şirketi olan BittiBitiyor'da satış yapmak çok kolay ve avantajlı.
+            </div>
+            <div class="sosyal-medya">
+                <h3>Bizi Takip Edin</h3>
+                <a href="www.facebook.com">
+                    <div id="facebook-img"></div>
+                    <div id="sosyal-text">Facebook</div>
+                </a>
+                <a href="www.facebook.com">
+                    <div id="instagram-img"></div>
+                    <div id="Div1">Instagram</div>                    
+                </a>
+                <a href="www.facebook.com">
+                    <div id="twitter-img"></div>
+                    <div id="Div2">Twitter</div>
+                </a>
+            </div>
+            <div class="clear"></div>
+            <div class="bitti-coop">© Copyright 2001-2016 BittiBitiyor.com</div>
+            <div class="footer-coop">
+                Kayıtlı Elektronik Posta Adresi: bittibitiyor@s01.ist.tr | Mensubu olduğu sektörel kuruluş: Elektronik Ticaret İşletmecileri Derneği, İstanbul Ticaret Odası.
+                Mersis No: 0346045785100025 | Telefon No: +90 (216) 000 00 00 | Tam unvanı: Bitti Bitiyor Bilgi Teknolojileri San. ve Tic. A.Ş.
+                Adres: Slmslg Office İş Mrkz., Selim Sk., No: 1/14, 34746 Silgu Mah., Üsküdar, İstanbul
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

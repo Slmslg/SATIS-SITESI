@@ -1,0 +1,23 @@
+﻿.forget {
+    margin-left:150px;
+    display:block;
+}
+.epostaLabel {
+   display:block;
+   width:200px;
+   margin:10px;
+}
+.email {
+    display:block;
+    width:200px;
+    margin:10px;
+}
+.gonderButon {
+    display:block;
+    width:200px;
+    margin:10px;
+} 
+.gonderildi {
+    display:block;
+    margin:10px;
+}

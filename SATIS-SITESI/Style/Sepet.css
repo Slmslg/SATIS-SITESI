@@ -1,0 +1,39 @@
+﻿.GridViewSepet {
+    float:left;
+}
+.kullanici {
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.satinAlButon {
+    float:right;
+    padding:5px;
+    border:1px solid #d9c4c4;
+    background-color:transparent;
+    font-size:14px;
+}
+.satinAlButon:hover {
+    background-color:#00ff21;
+    border:2px solid #108720;
+
+}
+.odeme {
+    width:993px;
+    margin-top:20px;
+}
+.satisDiv {
+    width:993px;
+    margin-top:20px;
+}
+.odemeTutar {
+    float:right;
+}
+.alinmisUrunler{
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.GridSatinAlinmis {
+    float:left;
+}

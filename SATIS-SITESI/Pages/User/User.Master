@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="SATIS_SITESI.Pages.User.User" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Slmslg</title>
+    <link href="../../Style/UserStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="main" >
+        <div class="header">
+            <div class="logo">
+                <img src="../../Img/logo.png" />
+            </div>
+            <div class="kullanici">                
+                <nav>
+                    <ul>
+                        <a href="Login.aspx">
+                            <li>
+                                <asp:Label ID="giris" runat="server" Text="Giriş Yap"></asp:Label>
+                            </li>
+                        </a>
+                        <a href="Sepet.aspx">
+                            <li>
+                                <asp:ImageButton ID="sepetImage" runat="server" ImageUrl="~/Img/sepet.png" />
+                                <asp:Label ID="sepetLabel" runat="server" Text="Sepetim"></asp:Label>
+                            </li>
+                        </a>
+                        <a href="UyeOl.aspx">
+                            <li>
+                                <asp:ImageButton ID="kayitOl" runat="server" PostBackUrl="~/Pages/User/UyeOl.aspx" ImageUrl="~/Img/signup.png" Visible="True" CssClass="kayitOl" OnClick="kayitOl_Click" />
+                                <asp:Label ID="kayitLabel" CssClass="kayitYazi" runat="server" Text="Kayıt Ol"></asp:Label>
+                            </li>
+                        </a>
+                        <a href="CikisYap.aspx">
+                            <li>
+                                <asp:ImageButton ID="cikisYap" runat="server" PostBackUrl="~/Pages/User/CikisYap.aspx" ImageUrl="~/Img/signout.png" Visible="False" CssClass="kayitOl" />
+                                <asp:Label ID="cikisLabel" CssClass="cikisYap" runat="server" Text="Güvenli Çıkış" Visible="False"></asp:Label>
+                            </li>
+                        </a>
+                    </ul>
+                </nav>    
+            </div>
+        </div>
+        <div class="clear"></div>
+       
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+
+        <div class="clear"></div>
+        <footer>
+            <div class="footer-class">
+                <h1>BittiBitiyor - Türkiye'nin En İşlek Online Alışveriş Sitesi</h1>
+            </div>
+            <div class="footer-yazi">
+                Türkiye'nin önde gelen alışveriş siteleri arasında olan, sahip olduğu benzersiz avantajları,
+                 %100 güvenli alışveriş sağlayan Sıfır Risk Sistemi'yle alışveriş tutkunlarının en çok tercih ettiği online
+                 alışveriş sitesi BittiBitiyor, kurulduğu günden bu yana online satış sistemini daha keyifli ve güvenli
+                 kılmaya devam ediyor. Yüzlerce kategorisinde yer alan inanılmaz ürün çeşidi ve rakipsiz fiyatlarıyla 
+                dünya markaları BittiBitiyor'la bir tık uzağınızda. Son model elektronik ürünlerin olduğu teknoloji 
+                kategorisinden istediğiniz cep telefonu modelini, hayalini kurduğunuz bilgisayarı ve diğer elektronik 
+                ürünleri uygun fiyat ve taksit seçeneğiyle online satın alabilir, en sevdiğiniz markaları içeren moda 
+                kategorisinden sezonun trendlerine uygun giyim ürünlerine, dünyaca ünlü ayakkabı markalarına, spor giyim 
+                seçeneklerine ulaşabilirsiniz. Online satışın ve güvenli alışverişin ilk adresi GittiGidiyor, kendi
+                 ürünlerinizi de satabileceğiniz bir alışveriş sitesidir. İster bireysel satış yapın ister firma sahibi 
+                tecrübeli bir satıcı olun, ücretsiz avantajlar, gelişmiş satış araçları, yenilenen mağaza abonelikleriyle
+                 bir Ebay şirketi olan BittiBitiyor'da satış yapmak çok kolay ve avantajlı.
+            </div>
+            <div class="sosyal-medya">
+                <h3>Bizi Takip Edin</h3>
+                <a href="www.facebook.com">
+                    <div id="facebook-img"></div>
+                    <div id="sosyal-text">Facebook</div>
+                </a>
+                <a href="www.facebook.com">
+                    <div id="instagram-img"></div>
+                    <div id="sosyal-text">Instagram</div>                    
+                </a>
+                <a href="www.facebook.com">
+                    <div id="twitter-img"></div>
+                    <div id="sosyal-text">Twitter</div>
+                </a>
+            </div>
+            <div class="clear"></div>
+            <div class="bitti-coop">© Copyright 2001-2016 BittiBitiyor.com</div>
+            <div class="footer-coop">
+                Kayıtlı Elektronik Posta Adresi: bittibitiyor@s01.ist.tr | Mensubu olduğu sektörel kuruluş: Elektronik Ticaret İşletmecileri Derneği, İstanbul Ticaret Odası.
+                Mersis No: 0346045785100025 | Telefon No: +90 (216) 000 00 00 | Tam unvanı: Bitti Bitiyor Bilgi Teknolojileri San. ve Tic. A.Ş.
+                Adres: Slmslg Office İş Mrkz., Selim Sk., No: 1/14, 34746 Silgu Mah., Üsküdar, İstanbul
+            </div>
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

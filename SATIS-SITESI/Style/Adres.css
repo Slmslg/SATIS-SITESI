@@ -1,0 +1,74 @@
+﻿#kul-baslik {
+
+}
+.kul-adres {
+    border-bottom: 1px solid #C7C7C7;
+    height: 400px;
+    float: left;
+    width: 1000px;
+    padding-bottom:18px;
+}
+.adresEkle{
+  /*border-bottom-color:#C7C7C7;
+  border-bottom-style:solid;
+  border-bottom-width:1px;*/
+  float:left;
+  margin-left:50px;
+  margin-top:20px;
+  padding-bottom:15px;
+  border-right:1px dotted #C7C7C7;
+  padding-right:30px;
+}
+.kulIDropDown {
+    height:30px;
+    width:160px;
+}
+.kaydet {
+  height:50px;
+  width:160px;
+}
+ImageButton #idAra {
+  height:25px;
+  width:25px;
+}
+#DropDownList1 {
+    margin-bottom:25px;
+    text-align:center;
+}
+.kullaniciAdresleri {
+    height: auto;
+    width: 400px;
+    margin-left: 20px;
+    background-color: #fff;
+    margin-top:30px;
+    font-weight:bold;
+}
+.kullaniciAdresBaslik {
+    border-bottom:2px solid #808080;    
+}
+.gridView {
+   float:left;
+   margin-left:35px;
+   margin-bottom:30px;
+   margin-top:20px;
+}
+.adresSil {
+    margin-left: 30px;
+    float:left;
+    margin-top:30px;
+}
+.kulDropDown {
+    height: 30px;
+    width: 180px;
+    margin-left: 20px;
+}
+.adresDropDown {
+    height: 30px;
+    width: 180px;
+    margin-left: 20px;
+}
+.silButon {
+    width: 180px;
+    height: 30px;
+    margin-left: 21px;
+}
